@@ -1,9 +1,9 @@
-#Creating a server on digital ocean
+#Creating a droplet on digital ocean
 
 import digitalocean
 
 name = input("Please enter a name for your droplet: ")
-do_token = "dop_v1_0a5e40c6ae1674e7c35d89e2a5fdc1597602d0a3836d5e5f4fd7407bd0dd6fed"
+do_token = ""
 password = input("Please create a password for your server: ") 
 
 droplet = digitalocean.Droplet(token=do_token,
